@@ -1,0 +1,9 @@
+body {
+    /* background-color: darkgray; */
+}
+
+.mainField {
+    width: 25%;
+    margin: auto;
+    padding-top: 50px;
+}
