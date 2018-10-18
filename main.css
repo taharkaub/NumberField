@@ -2,8 +2,22 @@ body {
     /* background-color: darkgray; */
 }
 
-.mainField {
+.fieldOne{
     width: 25%;
     margin: auto;
     padding-top: 50px;
 }
+
+#legendOne {
+    background-color: black;
+    color: white;
+}
+
+input[type=number] {
+    min-width: 3em;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    padding: 0 8px;
+}
+

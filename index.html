@@ -7,12 +7,17 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="main.css">
+     
     </head>
     <body>
-        <div class="mainField">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+            <script type="text/javascript" src="main.js"></script>
+
+        <div class="fieldOne">
             <fieldset>
-                <legend>Quantity</legend>
-                <input type="number" id="quantity" name="quantity" placeholder="Qty" min="0" max="999">
+                <legend id="legendOne">Field 1</legend>
+                <input type="number" id="quantity" name="quantity" placeholder="Qty" 
+                pattern="[0-9]*" min="0" max="999">
             </fieldset>
         </div>
     </body>
