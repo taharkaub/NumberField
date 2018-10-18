@@ -2,10 +2,10 @@ body {
     /* background-color: darkgray; */
 }
 
-.fieldOne{
+fieldset {
     width: 25%;
     margin: auto;
-    padding-top: 50px;
+    /* padding-top: 50px; */
 }
 
 #legendOne {
